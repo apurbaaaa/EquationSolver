@@ -1,0 +1,32 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model files
+*.h5
+
+# Ignore dataset files
+*.csv
+
+# Ignore temporary and log files
+temp/
+*.log
+
+# Ignore virtual environments (if applicable)
+venv/
+.env/
+
+# Ignore compiled Python files
+*.so
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore content directory (if it's generated data)
+content/
